@@ -1,0 +1,22 @@
+Car statistics:
+{'status': 200, 'operationId': '4f0f8202-1267-4444-bb4d-ff4331ef3fe6', 'data': {'modelYear': '2021', 'vin': 'LYVXZACACML443457', 'externalColour': 'Snow', 'images': {'exteriorDefaultUrl': 'https://cas.volvocars.com/image/dynamic/MY21_2017/536/exterior-v1/13/70700/R125/FN01/_/TC06/TP02/_/JT02/GR03/T102/TJ01/TM02/JG02/CB01/EV01/JB0C/T210/LF01/VP03/_/_/_/_/_/_/default.png?market=ru&client=connected-vehicle-api&w=1920&bg=floor&angle=1&fallback', 'interiorDefaultUrl': 'https://cas.volvocars.com/image/dynamic/MY21_2017/536/interior-v2/13/C/RD0000/NC0C/DI01/RU02/_/PD02/NP02/CB01/EV01/K502/K902/FH02/_/_/default.png?market=ru&client=connected-vehicle-api&w=1920&bg=00000000&angle=0&fallback'}, 'descriptions': {'model': 'XC40', 'upholstery': 'CHARCOAL/ARIANNE/CHARCOAL', 'steering': 'LEFT HAND DRIVE'}}}
+Car warnings:
+{'status': 200, 'operationId': 'bec57972-d0e6-44d2-80b5-841a87ff8f85', 'data': {}}
+Vehicle statistics:
+{'status': 200, 'operationId': '49f57354-829a-4fd5-adff-2ae671edd1fe', 'data': {'averageFuelConsumption': {'value': '12.2', 'unit': 'liters_per_100_kilometers', 'timestamp': '2021-10-23T13:45:15Z'}, 'averageSpeed': {'value': '40', 'unit': 'kilometers_per_hour', 'timestamp': '2021-10-23T13:45:15Z'}, 'tripMeter1': {'value': '350', 'unit': 'kilometers', 'timestamp': '2021-10-23T13:45:15Z'}, 'tripMeter2': {'value': '0', 'unit': 'kilometers', 'timestamp': '2021-10-23T13:45:15Z'}, 'distanceToEmpty': {'value': '300', 'unit': 'kilometers', 'timestamp': '2021-10-23T13:45:15Z'}}}
+Car odometer statistics:
+{'status': 200, 'operationId': '83776697-fd1e-4092-8975-cfc5821bb88b', 'data': {'odometer': {'value': '11498', 'unit': 'kilometers', 'timestamp': '2021-10-23T13:45:15Z'}}}
+Car fuel statistics:
+{'status': 200, 'operationId': '5ccec339-272e-4020-88e6-ff1cc17d9087', 'data': {'fuelAmount': {'value': '38', 'unit': 'liters', 'timestamp': '2021-10-23T13:45:15Z'}}}
+Car environment statistics:
+{'status': 200, 'operationId': '89e65ded-e250-4499-b193-25ca6eeafb88', 'data': {'externalTemp': {'value': '23', 'unit': 'celsius', 'timestamp': '2021-10-23T13:24:48Z'}}}
+Car engine statistics:
+{'status': 200, 'operationId': 'f4e2acca-9f3b-404e-8d43-2e3615c890ab', 'data': {'engineRunning': {'value': 'STOPPED', 'timestamp': '2021-10-23T13:45:15Z'}, 'oilPressure': {'value': 'NORMAL', 'timestamp': '2021-10-23T13:45:15Z'}, 'engineCoolantLevel': {'value': 'NORMAL', 'timestamp': '2021-10-23T13:45:15Z'}, 'oilLevel': {'value': 'NORMAL', 'timestamp': '2021-10-23T13:45:15Z'}, 'engineCoolantTemp': {'value': '26', 'unit': 'celsius', 'timestamp': '2021-10-23T13:45:15Z'}}}
+Car engine-status statistics:
+{'status': 200, 'operationId': 'bf9bc086-8b22-4ea0-8591-556522664f76', 'data': {'engineRunning': {'value': 'STOPPED', 'timestamp': '2021-10-23T13:45:15Z'}}}
+Car last diagnostics statistics:
+{'status': 200, 'operationId': 'e8a8ad87-7d98-4d73-a9a6-bc11a0c69b77', 'data': {'washerFluidLevel': {'value': 'NORMAL', 'timestamp': '2021-10-23T13:45:15Z'}, 'serviceStatus': {'value': 'NORMAL', 'timestamp': '2021-10-23T13:45:15Z'}, 'serviceTrigger': {'value': 'CALENDAR_TIME', 'timestamp': '2021-10-23T13:45:15Z'}, 'engineHoursToService': {'value': '346', 'unit': 'hours', 'timestamp': '2021-10-23T13:45:15Z'}, 'kmToService': {'value': '8511', 'unit': 'kilometers', 'timestamp': '2021-10-23T13:45:15Z'}, 'monthsToService': {'value': '1', 'unit': 'months', 'timestamp': '2021-10-23T13:45:15Z'}, 'serviceType': {'value': 'KEYOUT', 'timestamp': '2021-10-23T13:45:15Z'}}}
+Car windows statistics:
+{'status': 200, 'operationId': '6e9eb319-3e75-429a-bd1c-3c63b4aade70', 'data': {'frontLeft': {'value': 'OPEN', 'timestamp': '2021-10-23T13:45:15Z'}, 'frontRight': {'value': 'CLOSED', 'timestamp': '2021-10-23T13:45:15Z'}, 'rearLeft': {'value': 'CLOSED', 'timestamp': '2021-10-23T13:45:15Z'}, 'rearRight': {'value': 'CLOSED', 'timestamp': '2021-10-23T13:45:15Z'}}}
+Car doors statistics:
+{'status': 200, 'operationId': 'cb9b88a6-86f1-489b-9322-328bec1042fc', 'data': {'carLocked': {'value': 'LOCKED', 'timestamp': '2021-10-23T13:45:15Z'}, 'frontLeft': {'value': 'CLOSED', 'timestamp': '2021-10-23T13:45:15Z'}, 'frontRight': {'value': 'CLOSED', 'timestamp': '2021-10-23T13:45:15Z'}, 'hood': {'value': 'CLOSED', 'timestamp': '2021-10-23T13:45:15Z'}, 'rearLeft': {'value': 'CLOSED', 'timestamp': '2021-10-23T13:45:15Z'}, 'rearRight': {'value': 'CLOSED', 'timestamp': '2021-10-23T13:45:15Z'}, 'tailGate': {'value': 'CLOSED', 'timestamp': '2021-10-23T13:45:15Z'}}}
