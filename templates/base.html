@@ -4,18 +4,37 @@
     <title>{{ title }} - dora.team</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+<style>
+    @font-face {
+        font-family: 'Volvo-Medium';
+        src: url("/static/font/volvo_medium.ttf");
+    }
+    html,
+    body {
+        margin: 0;
+        height: 100%;
+    }
+    .iframe {
+        height: calc(100% - 56px);
+    }
+    .navbar-label {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    }
+    .team {
+        white-space: nowrap;
+        font-size: 24px;
+        font-family: 'Volvo-Medium';
+    }
+</style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-label">
         <a class="navbar-brand" href="/">
             <img src="{{ url_for('static', filename='img/logo.png')}}" width="10%" height="10%" class="d-inline-block align-center" alt="" loading="lazy">
-            dora.team // VOLVO TRAVEL</a>
-<!--        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">-->
-<!--            <div class="navbar-nav">-->
-<!--              <a class="nav-item nav-link active" href="#">Команда</a>-->
-<!--            </div>-->
-<!--        </div>-->
+    </a>
+    <span class="team">dora.team / Explore The World</span>
     </nav>
 {% block content %}{% endblock %}
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
