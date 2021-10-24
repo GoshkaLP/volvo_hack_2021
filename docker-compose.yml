@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+
+  nginx:
+    image: nginx:1.19.0-alpine
+    container_name: nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+#      - ./index.html:/var/www/html/index.html
+      - ./nginx_logs:/var/log/nginx
+      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+#      - /etc/ssl/private/bundle.crt:/etc/ssl/bundle.crt
+#      - /etc/ssl/private/private.key:/etc/ssl/www.dora.team.key
+    links:
+      - volvo_app
+
+  volvo_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: volvo_app
+    restart: unless-stopped
+    expose:
+      - 8080
